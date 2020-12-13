@@ -20,7 +20,7 @@ export default function QRCode() {
 
   const handleBarCodeScanned = ({ type, data }) => {
     setScanned(true);
-    navigation.navigate('Product');
+    navigation.navigate('Home');
   };
 
   if (hasPermission === null) {
